@@ -1,0 +1,23 @@
+Git Reference
+https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/
+
+===============
+Git Setup
+=========
+git config --global user.email "khan.neuton@gmail.com"
+git config --global user.name "neutonkhan"
+touch .gitignore
+echo "virtualEnv" > .gitignore
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/neutonkhan/learning-2.git
+git push -u origin master
+
+
+===========
+
+git pull
+
+=========
+
